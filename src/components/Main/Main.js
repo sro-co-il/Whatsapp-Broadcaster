@@ -29,6 +29,7 @@ other	36189826]
 const Main = () => {
   const [bulklist, setBulklist] = React.useState({ list: CSVToList(false ? sampleList : '', "\t", false) });
   return <div className="Main">
+    <h1>Whatsapp Broadcaster</h1>
     <header className="App-header">
       {bulklist.list.length} Contacts 
       | {getSubList(bulklist.list, isNameBlank).length} Blank names
