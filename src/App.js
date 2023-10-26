@@ -3,7 +3,7 @@ import './App.css';
 import Main from "./components/Main/Main";
 
 function App() {
-  useEffect(() => {
+  React.useEffect(() => {
     document.title = 'Whatsapp Broadcaster';
   }, []);
 
